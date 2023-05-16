@@ -57,6 +57,23 @@ def reverse_string(str)
     start -= 1    
   end
   output
+  # str.reverse.each_char {|x| output += x}
+  # str.reverse
 end
 
 reverse_string("hello")
+
+
+# def palindrome(str)
+#   # your code here
+#   # start = str.length - 1
+#   # output = ""
+#   # until start < 0
+#   #   output += str[start]
+#   #   start -= 1    
+#   # end
+#   # puts output
+#   str == reverse_string(str) ? true : false
+# end
+
+# puts palindrome("profforp")
